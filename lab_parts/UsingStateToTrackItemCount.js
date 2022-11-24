@@ -9,7 +9,6 @@ import {
 } from "react-native";
 import { styles } from "../styles";
 
-/* Set labPart variable to 3, to view this part of the lab */
 export default function UsingStateToTrackItemCount() {
   const [counter, setCounter] = useState(0);
 

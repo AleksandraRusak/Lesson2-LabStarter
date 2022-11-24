@@ -70,8 +70,6 @@ const CartItem2 = ({ item, counter2, setCounter2 }) => {
   );
 };
 
-/* TODO: DEFINE THE CART ITEM COMPONENT HERE */
-/* Set labPart variable to 5, to view this part of the lab */
 export default function CreatingCustomComponents() {
   const [counter, setCounter] = useState(0);
   const [counter1, setCounter1] = useState(0);

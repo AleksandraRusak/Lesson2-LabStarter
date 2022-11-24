@@ -9,9 +9,7 @@ import {
 } from "react-native";
 import { styles } from "../styles";
 
-/* Set labPart variable to 2, to view this part of the lab */
 export default function UsingStateToSetTextColor() {
-  //let textColor = "black";
   const [textColor, setTextColor] = useState("black");
 
   return (

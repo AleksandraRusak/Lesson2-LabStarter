@@ -9,10 +9,9 @@ import {
 } from "react-native";
 import { styles } from "../styles";
 
-/* Set labPart variable to 1, to view this part of the lab */
 export default function WhyNeedState() {
   const [age, setAge] = useState(10);
-  //let age = 10;
+  // age = 10;
 
   return (
     <SafeAreaView style={styles.content}>

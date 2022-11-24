@@ -9,8 +9,6 @@ import {
 } from "react-native";
 import { styles } from "../styles";
 
-/* Set labPart variable to 4, to view this part of the lab */
-
 export default function WorkingWithDictionaries() {
   const [item, setItem] = useState({ onions: 5, garlic: 3, bread: 1 });
 
